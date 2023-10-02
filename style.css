@@ -1,0 +1,50 @@
+.navegar{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.accesos{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2%;
+}
+
+.elemento{
+    font-size: 20px;
+    padding: 1%;
+    list-style: none;
+}
+
+.elemento a{
+    text-decoration: none;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+}
+
+.video div{
+    width: 35%;  
+}
+
+.video p{
+    width: 85%; 
+    display: flex;
+    align-content: stretch; 
+}
+
+.contacto{
+    background-color: rgb(214, 196, 196);
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.contacto img{
+    width: 25%;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+}
